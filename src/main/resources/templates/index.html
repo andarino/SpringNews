@@ -44,11 +44,11 @@ font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"></li>
 					</ul>
-					<form method="GET" th:action="@{/index}">
-						<input name="q" type="search" placeholder="Search *"
+			<form method="GET" th:action="@{/search}">
+						<input name="q" type="search" placeholder="Search***"
 							aria-label="Search">
 						<button type="submit" class="btn btn-danger">Search</button>
-					</form>
+			</form>
 				</div>
 			</div>
 		</nav>
@@ -56,10 +56,9 @@ font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
 	
 		<section>
 		<div class="btn-group" role="group" aria-label="Exemplo básico" style="padding-left: 4%; padding-top: 2%; flex-direction: row;">
-			<button type="button" class="btn btn-secondary">Sports</button>
-			<button type="button" class="btn btn-secondary"
-				onClick="location.href='';">Education</button>
-			<button type="button" class="btn btn-secondary">Newest</button>
+			<button type="button" class="btn btn-secondary" onClick="location.href='/search?q=sports';">Sports</button>
+			<button type="button" class="btn btn-secondary"	onClick="location.href='/search?q=education';">Education</button>
+			<button type="button" class="btn btn-secondary" onClick="location.href='/search?q=nature';">Nature</button>
 		</div>
 		</section>
 		
@@ -72,7 +71,7 @@ font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
  		</a>
           <div class="card-body" >    
           	<h5 type="text" class="card-title" th:text="${i.getTitle()}"><strong>TITULO</strong></h5>
-			<p style="font-weight: 10%;" class="card-text" th:text="${i.description}">content.</p>
+			<p style="font-weight: 10%; color: #6c757d" class="card-text" th:text="${i.description}">content.</p>
  
           </div>
         </div>
