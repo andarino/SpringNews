@@ -1,2 +1,2 @@
 # SpringNews
-A news portal made with spring thymeleaf 
+A news portal made in Primavera boot and Thymeleaf
