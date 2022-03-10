@@ -20,7 +20,7 @@ public class NewsAPI {
 	//
 	public static List<Datum> ConnectAPIget(){
 		System.out.println();
-		String url = "http://api.mediastack.com/v1/news?access_key=cbb230d3d6f8d97531bc50694e7204f7&sources=en&source=cnn,bbc";
+		String url = "http://api.mediastack.com/v1/news?access_key=cbb230d3d6f8d97531bc50694e7204f7&sources=en";
 	
 	    // create an instance of RestTemplate
 	    RestTemplate restTemplate = new RestTemplate();
