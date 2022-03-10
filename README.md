@@ -1,5 +1,6 @@
 # SpringNews
 A news portal made in Spring Boot and Thymeleaf with connection to mediastack's external API.
+Each card contains the link to the news source
 
 
 * Home 
@@ -8,5 +9,3 @@ A news portal made in Spring Boot and Thymeleaf with connection to mediastack's 
 
 * After a search
 ![home](https://github.com/andarino/SpringNews/blob/main/img/2.png)
-
-** Each card contains the link to the news source
