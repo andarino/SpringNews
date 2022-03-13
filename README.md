@@ -1,5 +1,5 @@
 # SpringNews
-![spring](https://img.shields.io/static/v1?label=Made_with&message=Spring&color=brightgreen)
+![spring](https://img.shields.io/badge/made%20with-spring-brightgreen)
 
 * Home 
 ![home](https://github.com/andarino/SpringNews/blob/main/img/1.png)
